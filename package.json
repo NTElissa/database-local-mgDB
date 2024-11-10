@@ -2,7 +2,7 @@
   "name": "database-local-mgdb",
   "version": "1.0.0",
   "description": "",
-  "type": "module",  
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js"
@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.21.1",
     "mongodb": "^6.9.0",
     "mongoose": "^8.7.1",
